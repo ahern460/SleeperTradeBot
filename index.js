@@ -1,28 +1,4 @@
-function add (x, y){
-    return x + y;
-}
-
-function printNumbers(x) {
-    for(let i = 1; i < x+1; i++)
-    console.log(i);
-}
-
-const players = [
-    {name: "Derrick Henry"}, 
-    {name: "Jordan Love"}, 
-    {name: "Josh Jacobs"}
-];
-
-function printList(x) { 
-    for(let i = 0; i < x.length; i++)
-    console.log(x[i]);
-}
-
-function printPlayerNames(players) {
-  players.forEach(player => {
-    console.log(player.name);
-  });
-}
+// Testing Sleeper API call
 
 const axios = require("axios");
 
